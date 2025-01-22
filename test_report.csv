@@ -1,0 +1,13 @@
+Test ID,Test Case Description,Test Steps,Expected Result,Actual Result,Status,Severity,Remarks
+TC001,Test navigation bar links,Click each link in the navigation bar > Verify page loads,Correct Rendering,All links working correctly,Passed,Medium,Navigation verified
+TC002,Test valid login,Enter valid credentials > Click Login,User logged in,Not login successful,Failed,High,Not Verified
+TC003,Test product listing,Fetch all products from Sanity API,Products displayed correctly,Verified successfully,Passed,High,No issues found
+TC004,Test dynamic product detail,Click on a product > Verify details,Correct product details shown,Details loaded correctly,Passed,Medium,Works as expected
+TC005,Test search functionality,Enter query > Check results,Relevant results shown,Search working not working,Failed,High,Not Verified
+TC006,Test cart functionality,Add/remove items > Verify cart updates,Cart updates correctly,Works as expected,Passed,High,Cart Verified
+TC007,Test cart functionality,Image not showing,Cart not updated,No imgs showing,Failed,High,Not Verified
+TC008,Test pagination,Navigate through pages of products,Correct products load per page,Pagination works,Passed,High,Pagination Verified
+TC009,Test checkout functionality,Go to checkout > Fill details > Place order,Order placed successfully,Checkout process smooth,Passed,High,Checkout Verified
+TC010,Fetching data with query,Execute GROQ query to fetch data from source,Data fetched correctly,Data fetched successfully,Passed,High,Query Verified
+TC011,Test sanity output,Run GROQ query to fetch data,Correct data returned,Data matches expectations,Passed,High,Sanity Output Verified
+TC012,Test responsiveness,Resize browser > Check layout,Layout adjusts correctly,Works as expected,Passed,High,Responsive Verified
